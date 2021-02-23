@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Pirata One', cursive;
+  background: url("images/background-mbl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+body .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .logo {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 8px;
+  color: white;
+  margin: 1.2rem 0;
+}
+
+body h2 {
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.4rem;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+body .products {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .products img {
+  width: 90px;
+  height: auto;
+  padding: 10px;
+}
+
+body p {
+  padding: 40px 0;
+  display: block;
+  max-width: 320px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  line-height: 1.3rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+body .cta {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #ff6a00;
+  border-radius: 5px;
+  color: black;
+  background: #ff6a00;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+body .cta:hover {
+  background: white;
+  border-color: white;
+  color: black;
+}
+
+body #WAButton {
+  font-family: sans-serif;
+}
+
+body .fancybox-caption__body {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+  body p {
+    font-size: 16px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) and (min-height: 815px) {
+  body {
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+  }
+  body .heading {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .products img {
+    width: 240px;
+  }
+  body .logo {
+    width: 150px;
+    height: auto;
+    padding: 15px;
+  }
+  body h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  body h2 {
+    max-width: 550px;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  body p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    max-width: 600px;
+  }
+  body .cta {
+    font-size: 28px;
+    padding: 12px 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
