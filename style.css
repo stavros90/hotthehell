@@ -81,6 +81,38 @@ body .products img {
   padding: 10px;
 }
 
+body .wrapper {
+  position: relative;
+  width: 100%;
+}
+
+body .wrapper .descriptions {
+  display: block;
+  position: absolute;
+  width: 450px;
+}
+
+body .wrapper .descriptions--left {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 50px;
+}
+
+body .wrapper .descriptions--right {
+  top: 50%;
+  right: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body .wrapper .descriptions p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
 body p {
   padding: 40px 0;
   display: block;
